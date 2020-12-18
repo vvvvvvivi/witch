@@ -52,7 +52,7 @@ async def event_message(message: twitchio.Message):
         if term_re.search(denoised):
             await message.channel.timeout(
                 message.author.name,
-                reason=f"Used blocked term {term!r}.",
+                reason=f"used blocked term {term!r}",
             )
             return
 
