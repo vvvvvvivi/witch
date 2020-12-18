@@ -1,6 +1,6 @@
 # witch
 
-Minimal Twitch chatbot that fights chat bots.
+Minimal Twitch chatbot that fights ad bots.
 
 # Setup
 
