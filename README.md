@@ -11,6 +11,10 @@ Requires Python 3.6, but later versions will give more up-to-date unicode data.
 ## Installing
 
 ```sh
+# Clone repository
+git clone https://github.com/vvvvvvivi/witch.git
+cd witch
+
 # Create and activate virtual environment
 python3 -m venv venv
 
@@ -18,7 +22,7 @@ source venv/bin/activate # Shell (Linux, macOS)
 venv/Scripts/Activate    # Batch (Windows)
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -Ur requirements.txt
 ```
 
 ## Configuring
