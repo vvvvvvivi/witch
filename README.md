@@ -1,6 +1,8 @@
 # witch
 
-Minimal Twitch chatbot that fights ad bots.
+Being f̸am̨oús is optional.
+
+Witch is a minimal Twitch bot that fights ad bots.
 
 # Setup
 
@@ -33,11 +35,15 @@ The IRC nick and token will be used to log in to IRC. To get the token sign in w
 
 To get a client ID, go to <https://dev.twitch.tv/console/apps/create> and create an application. The redirect URL does not matter, `http://localhost` will work fine.
 
-Once `.env` is filled in, you now must create a `filters.json` file. It is a simple key-value object mapping channel names to a list of blocked terms. An example is given below:
+Once `.env` is filled in, you now must create a `filters.json` file. It is a simple key-value object that maps channel names to a list of blocked terms. An example is given below:
 
 ```json
 {
-  "channel_name": ["blocked term 1", "blocked term 2"]
+  "your_channel_name": [
+    "wanna become famous",
+    "the game",
+    "another blocked term"
+  ]
 }
 ```
 
